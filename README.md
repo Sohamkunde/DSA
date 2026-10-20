@@ -17,4 +17,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Sohamkunde/DSA/tree/master/0901-online-stock-span) |
+## Array
+|  |
+| ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/Sohamkunde/DSA/tree/master/2073-time-needed-to-buy-tickets) |
+## Queue
+|  |
+| ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/Sohamkunde/DSA/tree/master/2073-time-needed-to-buy-tickets) |
+## Simulation
+|  |
+| ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/Sohamkunde/DSA/tree/master/2073-time-needed-to-buy-tickets) |
 <!---LeetCode Topics End-->
