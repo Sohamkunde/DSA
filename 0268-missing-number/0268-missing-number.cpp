@@ -1,25 +1,22 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int count=0;
-        int x=-1;
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<nums.size();i++)
+
+        unordered_set<int> st;
+
+        for(int num : nums)
         {
-            if(count!=nums[i])
+            st.insert(num);
+        }
+
+        for(int i = 0; i <= nums.size(); i++)
+        {
+            if(st.find(i) == st.end())
             {
-               return count;
-               
+                return i;
             }
-            count++;
         }
-        if(x!=-1)
-        {
-            return x;
-        }  
-        else
-        {
-            return (nums[nums.size()-1])+1;
-        }
+
+        return -1;
     }
 };
